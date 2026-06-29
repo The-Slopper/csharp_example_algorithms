@@ -7,7 +7,7 @@
     <Version>1.0.0</Version>
     <Authors>Engineering Team</Authors>
     <Company>Example Org</Company>
-    <Description>Implementacao de referencia de algoritmos com complexidade documentada.</Description>
+    <Description>Reference implementation of algorithms with documented complexity.</Description>
     <Copyright>Copyright (c) 2026 Example Org</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://git.example.com/csharp-example-algorithms</RepositoryUrl>
